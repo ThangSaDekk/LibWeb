@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./css/khaosat.css"> 
+    <link rel="shortcut icon" href="https://thuvien.ou.edu.vn/Resources/assets/index/imgs/favicon.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Khảo Sát</title>
+  </head>
+  <header class="flex h-spacing" >
+    <div>
+      <div><a href="https://ou.edu.vn" target="_blank" ><img src="./images/logo.png" alt="OU" style="width: 100%;" ></a></div>
+    </div>
+    <div>
+      <h1 class="brand"><a href="" onclick="window.location.reload(true)"><strong>THƯ VIỆN </a></h1>
+    </div>
+    <div>
+      <div>
+        <ul class="menu flag flex" >
+          <li><a href="#"><img src="./images/flag-vn.png" title="Vietnamese"></a></li>
+          <li><a href="#"><img src="./images/flag-en.png" title="English" ></a></li>
+          <li><a href="#"><img src="./images/flag-ja.png" title="Japanese"></a></li>
+          <li><a href="#" onclick="login()" >Đăng nhập</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="menu flex contact">
+          <li><a href="https://www.facebook.com/TruongDaiHocMo" target="_blank" ;"><i class="fa-brands fa-facebook-f size"></i></a></li>
+          <li><a href="mailto:thuviendhm@ou.edu.vn"><i class="fa-solid fa-envelope size"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <body>
+    <div class="content">
+              <h1>KHẢO SÁT NHU CẦU VÀ MỨC ĐỘ HÀI LÒNG CỦA BẠN 
+                ĐỌC THƯ VIỆN TRƯỜNG ĐẠI HỌC MỞ TP.HCM</h1>
+              <p>Nhằm cải tiến & nâng cao hơn nữa chất lượng phục vụ, Thư viện cần thu thập một số ý kiến đóng góp của bạn đọc.
+                Những ý kiến quý báu này là căn cứ để Thư viện đánh giá hiệu quả những công việc hiện tại và đưa ra 
+                những giải pháp nâng cao chất lượng phục vụ hơn nữa.</p>
+    </div>
+   
+    <div class="mains">
+      <h2>PHIẾU KHẢO SÁT</h2>
+          <h3>1. Bạn có thường xuyên sử dụng thư viện của trường không ?</h3>
+            <ul class="main">
+                <li><input type="radio" name="q1" />Thường xuyên</li>
+                <li><input type="radio" name="q1" />Thỉnh thoảng</li>
+                <li><input type="radio" name="q1" />Ít khi</li>
+                <li><input type="radio" name="q1" />Không sử dụng</li>
+            </ul>
+          <h3>2. Bạn đọc đến Thư viện Trường vì:</h3>
+          <ul class="main">
+                <li><input type="checkbox" name="p2">Nguồn tài liệu phong phú, mới</li>
+                <li><input type="checkbox" name="p2">Tài liệu sát với chương trình học</li>
+                <li><input type="checkbox" name="p2">Không gian học tập thuận lợi</li>
+                <li><input type="checkbox" name="p2">Mục khác:
+                  <span class="input">
+                    <input type="text" name="q2" placeholder="Câu trả lời của bạn">
+                </span>
+                </li>
+            </ul>
+          <h3>3. Bạn tìm tài liệu tại Thư viện Trường bằng cách nào dưới đây:</h3>
+          <ul class="main">
+              <li><input type="checkbox" name="p2">Tra cứu trên trang Web Thư viện</li>
+              <li><input type="checkbox" name="p2">Nhờ cán bộ thủ thư tìm giúp</li>
+              <li><input type="checkbox" name="p2">Mục khác:
+                <span class="input">
+                  <input type="text" name="q2" placeholder="Câu trả lời của bạn">
+                </span>
+              </li>
+            </ul>
+          <h3>4. Bạn có thường xuyên truy cập trang Web của Thư viện Trường không?</h3>
+          <ul class="main">
+                <li><input type="radio" name="q1" />Thường xuyên</li>
+                <li><input type="radio" name="q1" />Thỉnh thoảng</li>
+                <li><input type="radio" name="q1" />Ít khi</li>
+                <li><input type="radio" name="q1" />Chưa truy cập</li>
+            </ul>
+          <h3>5. Bạn thường quan tâm đến loại tài liệu nào dưới đây:  </h3>
+          <ul class="main">
+              <li><input type="checkbox" name="p5">Giáo trình, tài liệu tham khảo là sách</li>
+              <li><input type="checkbox" name="p5">Khóa luận - Luận văn - Luận án</li>
+              <li><input type="checkbox" name="p5">Báo - Tạp chí</li>
+              <li><input type="checkbox" name="p5">Cơ sở dữ liệu, Tài liệu điện tử</li>
+              <li><input type="checkbox" name="p2">Mục khác:
+                <span class="input">
+                  <input type="text" name="q2" placeholder="Câu trả lời của bạn">
+                </span>
+            </li> 
+            </ul>
+          <h3>6.  Bạn đã từng download tài liệu trên website Thư viện số của trường hay chưa?</h3>
+          <ul class="main">
+            <li><input type="radio" name="q1" />Có</li>
+            <li><input type="radio" name="q1" />Không</li>
+          </ul>
+          <h3>
+            7. Website của Thư viện có hữu ích cho việc tra 
+            cứu/tìm kiếm tài liệu của bạn?  
+          </h3>
+            <table>
+              <tr class="space">
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+              </tr>
+              <tr>
+                <td>Hoàn toàn không đồng ý</td>
+                <td><input type="radio" name="q2" /></td>
+                <td><input type="radio" name="q2" /></td>
+                <td><input type="radio" name="q2" /></td>
+                <td><input type="radio" name="q2" /></td>
+                <td><input type="radio" name="q2" /></td>
+                <td>Hoàn toàn đồng ý</td>
+              </tr>
+            </table>
+          <h3> 8. Theo bạn, Thư viện Trường cần làm những gì để nâng cao chất lượng phục vụ?</h3>
+          <p class="eight"><input type="text" name="q8" placeholder="Câu trả lời của bạn"></p>
+         <!-- Nút gửi -->
+          <button type="button" class="end" id="btnID"> Gửi </button>
+        </div>
+        <!-- hộp thoại thông báo -->
+        <div id="inform-box">
+            <h2>Cảm ơn bạn đã phản hồi !!</h2>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./js/main.js"></script>
+  </body>
+  <footer class="h-spacing flex">
+    <div></div>
+    <div>
+      <ul class="maps">
+        <li style="text-decoration: underline white ;"><h2>Thông tin liên hệ</h2></li>
+        <li> <i class="fa-solid fa-phone"></i> Số điện thoại : (028) 3930 0209</li>
+        <li> <i class="fa-solid fa-envelope"></i> E-mail:thuviendhm@ou.edu.vn </a></li>
+        <li><i class="fa-solid fa-fax"></i> Fax : (028) 3930 0085</li>
+      </ul>
+    </div>
+    <div></div>
+    <div>
+      <ul class="maps ">
+        <li style="text-decoration: underline white ; text-align: center;"><h2>Địa chỉ</h2></li>
+        <li><a href="https://goo.gl/maps/9Uysj6u5hmkLFeED8" target="_blank"><i class="fa-solid fa-location-dot"></i> Số 97 Võ Văn Tần, P.6, Quận 3, Thành phố Hồ Chí Minh</a></li>
+        <li><a href="https://goo.gl/maps/hK7bkaEh5DuAvzPi7" target="_blank"><i class="fa-solid fa-location-dot"></i> Long Bình Tân, Biên Hòa, Đồng Nai.</a></li>
+        <li><a href="https://goo.gl/maps/Uq6VfXsjRhvtKRFc9" target="_blank"><i class="fa-solid fa-location-dot"></i>  68 Lê Thị Trung, Bình Dương.</a></li>
+        <li><a href="https://goo.gl/maps/sDF9LayYGhqrpefCA" target="_blank"><i class="fa-solid fa-location-dot"></i> Ninh Hòa, Khánh Hòa.</a></li>
+        <li><a href="https://goo.gl/maps/287jrqHKSMSZWf1F8" target="_blank"><i class="fa-solid fa-location-dot"></i> 371 (Khu B) Nguyễn Kiệm, Quận Gò Vấp.</a></li>
+        <li><a href="https://goo.gl/maps/jU5zbM8KWAwpAg8Z6" target="_blank"><i class="fa-solid fa-location-dot"></i> Mai Thị Lựu, Quận 1.</a></li>
+      </ul>
+    </div>
+    <div></div>
+    <div></div>
+    <div>
+    <ul class="maps contact" style="width: 70%;">
+      <li style="text-decoration: underline white; font-size: 1.5rem;">Hỗ Trợ Nhanh: </li>
+      <li>Mọi thắc mắc xin liên hệ qua E-mail: thuviendhm@ou.edu.vn</li>
+      <li><a href="mailto:thuviendhm@ou.edu.vn"><i class="fa-solid fa-envelope size"></i></a></li>
+    </ul>
+    </div>
+ 
+  </footer>
+</html>

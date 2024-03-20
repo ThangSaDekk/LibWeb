@@ -1,0 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.login{
+  height: 100%;
+  width: 100%;
+  background-color: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+}

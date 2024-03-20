@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/home.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="shortcut icon" href="https://thuvien.ou.edu.vn/Resources/assets/index/imgs/favicon.ico">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+  <title>Thư viện Đại học Mở Tp.HCM</title>
+</head>
+<body>
+  <header class="flex h-spacing" >
+    <div>
+      <div><a href="https://ou.edu.vn" target="_blank" ><img src="./images/logo.png" alt="OU" style="width: 100%;"></a></div>
+    </div>
+    <div>
+      <h1 class="brand"><a href="" onclick="window.location.reload(true)">THƯ VIỆN</a></h1>
+    </div>
+    <div>
+      <div>
+        <ul class="menu flag flex" >
+          <li><a href="#"><img src="./images/flag-vn.png" title="Vietnamese"></a></li>
+          <li><a href="#"><img src="./images/flag-en.png" title="English" ></a></li>
+          <li><a href="#"><img src="./images/flag-ja.png" title="Japanese"></a></li>
+          <li><a href="#" onclick="login()" >Đăng nhập</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="menu flex contact">
+          <li><a href="https://www.facebook.com/TruongDaiHocMo" target="_blank "><i class="fa-brands fa-facebook-f size"></i></a></li>
+          <li><a href="mailto:thuviendhm@ou.edu.vn"><i class="fa-solid fa-envelope size"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section>
+    <!--MENU-->
+    <div class="topnav" id="nav">
+      <a class="active" href="home.html">TRANG CHỦ</a>
+      <a href="#GIOITHIEU">GIỚI THIỆU</a>
+      <a href="#TAINGUYENTHONGTIN">TÀI NGUYÊN THÔNG TIN</a>
+      <a href="khaosat.html">GÓP Ý</a>
+      <input type="text" placeholder="Search..">
+    </div>
+  </section>
+  <!--MENU-->
+  <section>
+    <!--Silde Show-->
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="images/thuvien0.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="images/thuvien1.jpg" style="width:100%">
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="images/thuvien2.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="images/thuvien3.jpg" style="width:100%">
+      </div>
+    
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1);">&#10094;</a>
+      <a class="next" onclick="plusSlides(1);">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+     <!--Silde Show-->
+  </section>
+  <!--Danh mục sách-->
+  
+  <section>
+    <h2><i class="fa-solid fa-list"></i>  TRUY CẬP NHANH:</h2>
+    <div class="fast_lists" style="display: flex;">
+      <div class="fast_list">
+        <a href="#"><i class="fa-solid fa-computer"></i></a>
+        <p>Công nghệ thông tin</p>
+      </div>
+      <div class="fast_list">
+        <a href="#"><i class="fa-solid fa-computer"></i></a>
+        <p>Công nghệ thông tin</p>
+      </div>
+      <div class="fast_list">
+        <a href="#"><i class="fa-solid fa-computer"></i></a>
+        <p>Công nghệ thông tin</p>
+      </div>
+      <div class="fast_list">
+        <a href="#"><i class="fa-solid fa-computer"></i></a>
+        <p>Công nghệ thông tin</p>
+      </div>
+      <div class="fast_list">
+        <a href="#"><i class="fa-solid fa-computer"></i></a>
+        <p>Công nghệ thông tin</p>
+      </div>
+      <div class="fast_list">
+        <a href="#" ><i class="fa-solid fa-computer"></i></a>
+        <p>Công nghệ thông tin</p>
+      </div>
+  </div>
+  </section>
+
+  <section>
+    <h2><i class="fa-solid fa-globe"></i> CƠ SỞ DỮ LIỆU TRỰC TUYẾN</h2>
+    <div class="stinets" style="display: flex;">
+      <div class="stinet">
+        <a href="http://stinet.gov.vn/" target="_blank"><img src="https://thuvien.ou.edu.vn/Resources/Images/Stinet.png"></a>
+      </div>
+      <div class="stinet">
+        <a href="https://luatvietnam.vn/" target="_blank"><img src="https://thuvien.ou.edu.vn/Resources/Images/Luatvn.jpg"></a>
+      </div>
+      <div class="stinet">
+        <a href="https://www.emerald.com/insight/" target="_blank"><img src="https://thuvien.ou.edu.vn/Resources/Images/emeraldinsight.jpg"></a>
+      </div>
+      <div class="stinet">
+        <a href="https://rd.springer.com/" target="_blank"><img src="https://thuvien.ou.edu.vn/Resources/Images/Springer.png"></a>
+      </div>
+    </div>
+    
+  </section>
+  <footer class="h-spacing flex">
+    <div></div>
+    <div>
+      <ul class="maps">
+        <li style="text-decoration: underline white ;"><h2>Thông tin liên hệ</h2></li>
+        <li> <i class="fa-solid fa-phone"></i> Số điện thoại : (028) 3930 0209</li>
+        <li> <i class="fa-solid fa-envelope"></i> E-mail:thuviendhm@ou.edu.vn </a></li>
+        <li><i class="fa-solid fa-fax"></i> Fax : (028) 3930 0085</li>
+      </ul>
+    </div>
+    <div></div>
+    <div>
+      <ul class="maps ">
+        <li style="text-decoration: underline white ; text-align: center;"><h2>Địa chỉ</h2></li>
+        <li><a href="https://goo.gl/maps/9Uysj6u5hmkLFeED8" target="_blank"><i class="fa-solid fa-location-dot"></i> Số 97 Võ Văn Tần, P.6, Quận 3, Thành phố Hồ Chí Minh</a></li>
+        <li><a href="https://goo.gl/maps/hK7bkaEh5DuAvzPi7" target="_blank"><i class="fa-solid fa-location-dot"></i> Long Bình Tân, Biên Hòa, Đồng Nai.</a></li>
+        <li><a href="https://goo.gl/maps/Uq6VfXsjRhvtKRFc9" target="_blank"><i class="fa-solid fa-location-dot"></i>  68 Lê Thị Trung, Bình Dương.</a></li>
+        <li><a href="https://goo.gl/maps/sDF9LayYGhqrpefCA" target="_blank"><i class="fa-solid fa-location-dot"></i> Ninh Hòa, Khánh Hòa.</a></li>
+        <li><a href="https://goo.gl/maps/287jrqHKSMSZWf1F8" target="_blank"><i class="fa-solid fa-location-dot"></i> 371 (Khu B) Nguyễn Kiệm, Quận Gò Vấp.</a></li>
+        <li><a href="https://goo.gl/maps/jU5zbM8KWAwpAg8Z6" target="_blank"><i class="fa-solid fa-location-dot"></i> Mai Thị Lựu, Quận 1.</a></li>
+      </ul>
+    </div>
+    <div></div>
+    <div>
+    <ul class="maps contact" style="width: 80%;">
+      <li style="text-decoration: underline white; font-size: 1.5rem;">Hỗ Trợ Nhanh: </li>
+      <li>Mọi thắc mắc xin liên hệ qua E-mail: thuviendhm@ou.edu.vn</li>
+      <li><a href="mailto:thuviendhm@ou.edu.vn"><i class="fa-solid fa-envelope size"></i></a></li>
+    </ul>
+    </div>
+  </footer>
+</body>
